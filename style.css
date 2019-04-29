@@ -12,13 +12,13 @@
 :root {
     --color-body-copy: #50505D;
     --color-white: #FFFFFF;
-    --color-honest-buildings: #2F3540;
     --color-twitter: #1DA1F2;
     --color-linkedin: #0077B5;
     --color-github: #24292E;
     --color-duolingo: #7AC70C;
     --color-instagram: linear-gradient(-135deg,#1400c8,#b900b4,#f50000);
     --color-the-mouse-doctor: #000F3A;
+    --color-yext: #4d6272;
 }
 
 * {
@@ -103,9 +103,6 @@ a {
     text-decoration: none;
     font-weight: 500;
 }
-.color-honest-buildings {
-    color: var(--color-honest-buildings);
-}
 .color-twitter {
     color: var(--color-twitter);
 }
@@ -126,6 +123,9 @@ a {
 }
 .color-the-mouse-doctor {
     color: var(--color-the-mouse-doctor);
+}
+.color-yext {
+    color: var(--color-yext);
 }
 
 /* Layout */

@@ -10,15 +10,13 @@
 */
 
 :root {
-    --color-body-copy: #50505D;
+    --color-body-copy: #333333;
     --color-white: #FFFFFF;
-    --color-twitter: #1DA1F2;
     --color-linkedin: #0077B5;
     --color-github: #24292E;
     --color-duolingo: #7AC70C;
-    --color-instagram: linear-gradient(-135deg,#1400c8,#b900b4,#f50000);
     --color-the-mouse-doctor: #000F3A;
-    --color-yext: #4d6272;
+    --color-yext: #161717;
 }
 
 * {
@@ -102,9 +100,13 @@ p {
 a {
     text-decoration: none;
     font-weight: 500;
+    outline: none;
 }
-.color-twitter {
-    color: var(--color-twitter);
+a:hover,
+a:focus {
+    text-decoration: underline;
+    text-decoration-thickness: 0.125rem;
+    text-underline-offset: 0.1875rem;
 }
 .color-linkedin {
     color: var(--color-linkedin);
@@ -114,12 +116,6 @@ a {
 }
 .color-duolingo {
     color: var(--color-duolingo);
-}
-.color-instagram {
-    color: transparent;
-    background-image: var(--color-instagram);
-    -webkit-background-clip: text;
-    background-clip: text;
 }
 .color-the-mouse-doctor {
     color: var(--color-the-mouse-doctor);

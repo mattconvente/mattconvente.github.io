@@ -17,6 +17,8 @@
     --color-duolingo: #7AC70C;
     --color-the-mouse-doctor: #000F3A;
     --color-yext: #161717;
+    --color-old-glory-red: #B31942;
+    --color-old-glory-blue: #0A3161;
 }
 
 * {
@@ -108,6 +110,10 @@ a:focus {
     text-decoration-thickness: 0.125rem;
     text-underline-offset: 0.1875rem;
 }
+.link-the-many-states:hover,
+.link-the-many-states:focus {
+    text-decoration-color: var(--color-old-glory-red);
+}
 .color-linkedin {
     color: var(--color-linkedin);
 }
@@ -122,6 +128,12 @@ a:focus {
 }
 .color-yext {
     color: var(--color-yext);
+}
+.color-old-glory-red {
+    color: var(--color-old-glory-red);
+}
+.color-old-glory-blue {
+    color: var(--color-old-glory-blue);
 }
 
 /* Layout */

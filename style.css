@@ -16,7 +16,7 @@
     --color-github: #24292E;
     --color-duolingo: #7AC70C;
     --color-the-mouse-doctor: #000F3A;
-    --color-yext: #161717;
+    --color-veson: #0070c7;
     --color-old-glory-red: #B31942;
     --color-old-glory-blue: #0A3161;
 }
@@ -126,8 +126,8 @@ a:focus {
 .color-the-mouse-doctor {
     color: var(--color-the-mouse-doctor);
 }
-.color-yext {
-    color: var(--color-yext);
+.color-veson {
+    color: var(--color-veson);
 }
 .color-old-glory-red {
     color: var(--color-old-glory-red);
